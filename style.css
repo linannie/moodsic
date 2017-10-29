@@ -1,0 +1,54 @@
+*{
+	font-family: 'Fredoka One', cursive;
+	color: white;
+	line-height: 50px;
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+
+}
+
+body{
+	background-color: #B3D892;
+}
+
+.elem{
+	text-align: center;
+}
+
+#title{
+	font-size: 100px;
+
+}
+
+#feel{
+	font-size: 40px;
+}
+
+.emoji{
+	float: left;
+	display: inline;
+	font-size: 24px;
+	width: 100px;
+}
+
+/*#moods{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 100px;
+	margin-top: -50px;
+	margin-left: -50px;
+
+	text-align: center;
+}*/
+
+#moods{
+	 position: absolute;
+    height: 200px;
+    width: 600px;
+    margin: -100px 0 0 -300px;
+    top: 50%;
+    left: 50%;
+   
+    text-align: center;
+}
