@@ -65,9 +65,10 @@ img{
 	height: 200px;
 	width: 200px
 	margin: -100px 0 0 -100px;
-	top: 80%;
+	top: 70%;
 	left: 50%;
 	text-align: center;
+	
 }
 
 li{
@@ -86,6 +87,10 @@ a:hover{
 }
 img:hover{
 	opacity: 0.8;
+}
+li:hover{
+	cursor: pointer;
+	opacity: 0.5;
 }
 
 button{
