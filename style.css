@@ -16,11 +16,14 @@ body{
 
 #title{
 	font-size: 100px;
+	display: block;
 
 }
 
 #feel{
 	font-size: 40px;
+	display: block;
+
 }
 
 .emoji{
@@ -30,25 +33,37 @@ body{
 	width: 100px;
 }
 
-/*#moods{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 600px;
-	height: 100px;
-	margin-top: -50px;
-	margin-left: -50px;
 
-	text-align: center;
-}*/
 
 #moods{
-	 position: absolute;
+	 position: fixed;
     height: 200px;
     width: 600px;
     margin: -100px 0 0 -300px;
     top: 50%;
     left: 50%;
-   
+ 
     text-align: center;
+}
+img{
+	height: 90px;
+	width: 90px;
+}
+
+#footer{
+	position: fixed;
+	height: 200px;
+	width: 200px;
+	margin: -100px 0 0 -100px;
+	top: 100%;
+	left: 50%;
+	text-align: center;
+	
+}
+a{
+	text-decoration: none;
+	color: #119867;
+}
+a:hover{
+	color: #0C7F55;
 }
