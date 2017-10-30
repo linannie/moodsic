@@ -67,3 +67,10 @@ a{
 a:hover{
 	color: #0C7F55;
 }
+
+button{
+	background-color: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
