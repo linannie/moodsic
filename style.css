@@ -60,12 +60,32 @@ img{
 	text-align: center;
 	
 }
+#play{
+	position: fixed;
+	height: 200px;
+	width: 200px
+	margin: -100px 0 0 -100px;
+	top: 80%;
+	left: 50%;
+	text-align: center;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
 a{
 	text-decoration: none;
 	color: #119867;
 }
 a:hover{
 	color: #0C7F55;
+}
+img:hover{
+	opacity: 0.8;
 }
 
 button{
