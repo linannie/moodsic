@@ -121,4 +121,5 @@ li:hover{
 button{
 	background-color: Transparent;
 	outline: none;
+	border: none;
 }
