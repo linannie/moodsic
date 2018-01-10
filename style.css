@@ -110,4 +110,5 @@ button{
     top: 92%;
     left: 50%;
     text-align: center;
+    visibility: hidden;
 }

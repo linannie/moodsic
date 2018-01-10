@@ -1,0 +1,101 @@
+*{
+	font-family: 'Fredoka One', cursive;
+	color: white;
+	/*line-height: 50px;*/
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+
+}
+
+body{
+	background-color: #B3D892;
+}
+
+.title_wrapper{
+	position: absolute;
+	margin: auto;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 1000px;
+	height: 500px;
+}
+
+#title{
+	font-size: 200px;
+	text-align: center;
+	line-height: 20px;
+
+}
+#login{
+	text-align: center;
+}
+
+#login, #loggedin {
+        display: none;
+      }
+      .text-overflow {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 500px;
+      }
+
+#loginbut{
+
+	padding: 10px 10px;
+	border-radius: 500px;
+}
+#loginbut:hover{
+	opacity: 0.5;
+}
+
+.pull-left{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+#tit{
+	font-size: 100px;
+	display: block;
+
+}
+.elem{
+	text-align: center;
+	line-height: 0;
+}
+
+#feel{
+	font-size: 25px;
+
+}
+
+.emoji{
+	float: left;
+	display: inline;
+	font-size: 24px;
+	width: 100px;
+}
+
+.face{
+	height: 90px;
+	width: 90px;
+}
+
+#moods{
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+li{
+	
+	display: inline;
+}
